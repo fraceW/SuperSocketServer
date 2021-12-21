@@ -32,13 +32,10 @@ namespace SuperSocket
        private void Form1_Load(object sender, EventArgs e)
         {
             appServer = new AppServer();
-
-
             //Setup the appServer
             if (!appServer.Setup(3666)) //Setup with listening port
             {
                 WriteMsg("Failed to setup!");
-                
                 return;
             }           
 
