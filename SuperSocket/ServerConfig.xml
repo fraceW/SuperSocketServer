@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <Server>
+    <IP>127.0.0.1</IP>
+    <Port>3666</Port>
+  </Server>
+</Config>
